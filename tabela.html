@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Clientes MongoDB</title>
+</head>
+<body>
+    <h1>Lista de Clientes</h1>
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Cidade</th>
+            <th>Idade</th>
+        </tr>
+        {% for cliente in dados %}
+        <tr>
+            <td>{{ cliente.nome }}</td>
+            <td>{{ cliente.cidade }}</td>
+            <td>{{ cliente.idade }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
