@@ -5,7 +5,7 @@ from fastapi.templating import Jinja2Templates
 from pymongo import MongoClient
 
 # String de conexão MongoDB (substituir pelos seus dados)
-client = MongoClient("mongodb+srv://usuario:senha@cluster.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://gracymmedeiros:t07OXnWH4ZjvUFTc@cluster0.om1cghm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Conectando ao banco e coleção
 db = client["meubanco"]
